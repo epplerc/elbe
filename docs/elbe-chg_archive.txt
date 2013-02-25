@@ -16,6 +16,8 @@ DESCRIPTION
 This command exchanges the archive file inside the xml file with the one specified.
 
 The archive tbz is used to insert configuration files into the root-filesystem.
+Since the content of the archive will overlaid over the root file system,
+the content of the archive must be structured like the RFS.
 
 OPTIONS
 -------
